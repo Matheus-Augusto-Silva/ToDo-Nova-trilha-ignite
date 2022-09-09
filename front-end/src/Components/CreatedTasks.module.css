@@ -1,0 +1,38 @@
+.tasksData {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+.tasksData button {
+  background: var(--grey-400);
+  border: none;
+  border-radius: 0.5rem;
+  color: var(--grey-100);
+  padding: 0.1rem 0.5rem;
+  font-size: 0.8rem;
+}
+.taskContainer1 {
+  width: 8.675rem;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.taskContainer1 span {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--blue);
+}
+.taskContainer2 {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.taskContainer2 span {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--purple);
+}

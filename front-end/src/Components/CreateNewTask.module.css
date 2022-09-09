@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  max-width: 46rem;
+  margin: -2rem auto 0 auto;
+  justify-content: space-between;
+
+  margin-bottom: 4rem;
+}
+
+.container input {
+  width: 39.875rem;
+  height: 3.375rem;
+  background-color: var(--grey-500);
+  color: var(--grey-300);
+  padding: 1rem;
+  border: 1px solid var(--grey-700);
+  border-radius: 0.5rem;
+}
+
+.container input:focus {
+  color: var(--grey-100);
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: var(--blueDark);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: var(--grey-100);
+}
+
+.button:hover {
+  background-color: var(--blue);
+  cursor: pointer;
+}
+
+.circle {
+  color: var(--grey-100);
+  margin-left: 0.5rem;
+}

@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 4rem;
+  border-top: 1px solid var(--grey-400);
+  align-items: center;
+}
+.container svg {
+  margin: 0 auto 1rem auto;
+}
+
+.container p {
+  font-size: 1rem;
+  line-height: 22.4px;
+}
+.p1 {
+  font-weight: 600;
+}
+.p2 {
+  font-weight: 400;
+}
